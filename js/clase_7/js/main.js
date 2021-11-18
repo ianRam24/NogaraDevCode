@@ -60,7 +60,6 @@ function movimiento(flecha) {
     default:
       break;
   }
-  marginTop += velocidad;
 }
 movimiento();
 // La funcion se ejecuta poniendo el nombre de la fucion y con parentesis
