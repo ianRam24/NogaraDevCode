@@ -1,0 +1,24 @@
+body {
+    background-color:dodgerblue;
+}
+p {
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 10px;
+    line-height: 30px;
+    word-spacing: 20px;
+}
+
+ul {    
+    list-style-type:decimal;
+    list-style-position: initial;
+}
+ul li {
+    font-size: 30px;
+    color:maroon;
+}
+#list2{
+    list-style-image: url(../img/icons8-de-acuerdo-16.png);
+} 

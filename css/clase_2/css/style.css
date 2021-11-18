@@ -1,0 +1,57 @@
+div {
+    height: 50px;
+}
+/* NOMBRE */
+#color1 {
+    background-color: red;
+}
+#color2{
+    background-color: green;
+}
+#color3{
+    background-color: blue;
+}
+/* RGB */
+#rgb1 {
+    background-color: rgb(1, 70, 197);
+}
+#rgb2 {
+    background-color: rgba(250, 7, 7, 0.685);
+}
+/* HEX */
+#hex1 {
+    background-color: #ffffff;
+}
+#hex2 {
+    background-color: #000000;
+}
+#hex3 {
+    background-color: #ff0000;
+}
+#hex4 {
+    background-color: #00ff00;
+}
+#hex5 {
+    background-color: #0000ff;
+}
+/* HSL */
+#hsl1{
+    background-color: hsl(259,0%,0%);
+}
+#hsl2{
+    background-color: hsl(259,0%,100%);
+}
+#hsl3 {
+    background-color: hsl(0,100%,50%);
+}
+#hsl4 {
+    background-color: hsl(0,100%,50%);
+}
+
+/* RGBA */
+#rgb1 {
+    background-color: rgba(1, 70, 197,0.5);
+}
+#rgba2 {
+    background-color: rgba(250, 7, 7, 0.685);
+}

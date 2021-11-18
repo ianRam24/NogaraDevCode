@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: darksalmon;
+}
+
+main {
+    background-color: coral;
+    height: 400px;
+}
+
+main img {
+    width: 200px;
+    background-color: coral;
+}
+
+main>div {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+    left: 100px;
+
+}
+
+main>div>div {
+    font-size: 40px;
+}
+
+main>div>div:hover {
+    cursor: pointer;
+    font-size: 30px;
+}

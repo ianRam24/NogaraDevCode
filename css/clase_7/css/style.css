@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+body {
+    padding: 10px;
+}
+ul li:nth-child(2n + 0){
+    background-color: coral;
+    text-transform: uppercase;
+    font-weight: bold;
+}   
+section {
+    background-color: blueviolet;
+    color:#000;
+    /* height: 100px; */
+    padding: 20px;
+}
+section p {
+    margin: 0;
+}
+section p::first-line {
+    color: aquamarine;
+    font-weight: bold;
+}
+section p::first-letter {
+    color: cyan;
+    font-size: 24px;
+    font-family: Helvetica, sans-serif;
+}
+::selection {
+    background-color: #000;
+    color: #fff;
+} 
+/* section::before {
+    content: url(../img/favicon.png);
+}
+section::after {
+    content: url(../img/favicon.png);
+} */
+section>div{
+    margin: 50px;
+}
+section > div > img {
+    width: 50%;
+    display: block;
+    margin: 15px auto;
+}
+section > div > h2 {
+    text-align: center;
+    font-size: 30px;
+}
+section > div > p {
+    font-size: 18px;
+    text-align: justify;
+}
+@media screen and (min-width:960px) {
+    /* section {
+        background-color: cornflowerblue    ;
+    } */
+    section > div {
+        float: left;
+    }
+}

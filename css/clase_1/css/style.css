@@ -1,0 +1,18 @@
+body {
+    background-color:mediumseagreen;
+}
+h1 {
+    color:lightpink;
+}
+p {
+    color:lightseagreen;
+}
+#p_2 {
+    color: lightsalmon;
+}
+#p_3 {
+    color:forestgreen ;
+}
+.p {
+    color: ivory;
+}

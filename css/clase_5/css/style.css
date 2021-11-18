@@ -1,0 +1,27 @@
+#btn{
+    height: 100px;
+    background-color: blueviolet;
+}
+#btn:hover {
+    background-color: chartreuse;
+    cursor: pointer;
+}
+span{
+    background-color: chocolate;
+    color:#fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+span:hover{
+    height: 50px;
+    width: 100px;
+}
+.container {
+    height: 50px;
+    background-color: crimson;
+    opacity: 0;
+}
+span:hover ~ .container {
+    opacity: 1;
+
+}
