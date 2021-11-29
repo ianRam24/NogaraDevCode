@@ -1,35 +1,40 @@
 function user() {
-  var nombre = prompt('Cual es tu nombre');
-  var lenguaje = prompt('Que lenguaje de programacion te gusta mas');
-  bienvenida(nombre);
+  var nombre = prompt('Cual es tu nombre?');
+  var color = prompt('Cual es tu color fav?');
+  /* console.log(nombre); */
+  bienvenida(nombre, color);
+  return nombre, color;
 }
 
-function bienvenida(funcionBienvenida, lenguaje = 'python') {
-  document.write('Bienvenido ' + funcionBienvenida + ' a mi pagina');
-  document.write(lenguaje);
-  function perfil() {
+function bienvenida(nombre, color = 'rosa') {
+  document.write('Bienvenido ' + nombre + ' Ya eres parte de la comunidad :3');
+  document.write(color);
+
+  function perfil(nombre, color) {
     document.getElementsByTagName('body')[0].innerText = '';
-    document.write('User: ' + funcionBienvenida + '<br>');
-    document.write('Lenguaje: ' + lenguaje);
+
+    document.write('User: ' + nombre + '<br>');
+    document.write('Color: ' + color);
   }
+
   setTimeout(function () {
-    perfil();
-  }, 2000);
-  perfil();
+    perfil(nombre, color);
+  }, 3000);
 }
-// user();
+/* user(); */
 
 function suma(num1, num2) {
   return num1 + num2;
-  //   console.log(total);
-  //   return total;
 }
 
-// var nombre = prompt('Cual es tu nombre');
-// var perro = suma(4, 5);
+/* var nombre = prompt('Cual es tu nombre?'); */
+
+/* var perro = suma(4,5); */
 
 function mensaje(nombre) {
-  return 'Hola ' + nombre + ' Feliz dia';
+  return 'Hola ' + nombre + ' ,Feliz día :3';
 }
-// var persona1 = mensaje('Pedro');
-console.log(mensaje('Richard'));
+
+/* var persona1 = mensaje('Pedro'); */
+
+console.log(mensaje('Ian'));

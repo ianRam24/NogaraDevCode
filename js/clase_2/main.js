@@ -46,3 +46,6 @@ if (titulo && experiencia && edad > 18) {
 } else {
   console.log('No puedes conseguir trabajo');
 }
+
+// && y
+// || o
