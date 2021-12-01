@@ -36,12 +36,13 @@ function operacion() {
     total = number1;
     clearScreen();
   } else {
-    total = total + number1;
-    document.getElementById('screen').innerText = total;
-    screenCal = 0;
-    number1 = 0;
     // console.log(total);
     switch (operacion) {
+      case addition:
+        total = total + number1;
+        document.getElementById('screen').innerText = total;
+        screenCal = 0;
+        number1 = 0;
       case substraction:
         total = total - number1;
         screenCal = 0;
