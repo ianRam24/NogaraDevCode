@@ -1,0 +1,32 @@
+#container {
+    width: 200px;
+    height: 200px;
+    background-color: slateblue;
+}
+
+
+#container2 {
+    width: 200px;
+    height: 200px;
+    background-color: springgreen;
+}
+
+#container3 {
+    width: 200px;
+    height: 200px;
+    background-color: steelblue;
+}
+
+#pieza {
+    width: 100px;
+    height: 100px;
+    background-image: url(../img/favicon.png);
+    background-size: contain;
+}
+
+#pieza2 {
+    width: 100px;
+    height: 100px;
+    background-image: url(../img/favicon.png);
+    background-size: contain;
+}
