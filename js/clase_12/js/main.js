@@ -6,6 +6,7 @@ fetch(urlApi)
     json.results.map(function (results) {
       container.innerHTML +=
         `
+        <div class="card">
       <div> <img src= ` +
         results.image +
         `></div>
@@ -19,7 +20,7 @@ fetch(urlApi)
         results.status +
         `</i><br>
       <hr>
-      
+      </div>
       `;
     });
   });
