@@ -1,8 +1,8 @@
-var urlApi = 'https://rickandmortyapi.com/api/character';
+const urlApi = 'https://rickandmortyapi.com/api/character';
 fetch(urlApi)
   .then((response) => response.json())
   .then(function (json) {
-    var container = document.getElementById('container');
+    const container = document.getElementById('container');
     json.results.map(function (results) {
       container.innerHTML +=
         `
