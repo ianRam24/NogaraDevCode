@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#pop-up {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(145, 192, 210, .8);
+}
