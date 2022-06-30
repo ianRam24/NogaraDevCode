@@ -1,4 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #19ac7b;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    font-size: 30px;
+    margin: 20px;
+    text-align: center;
+    color: #fff;
+}
 #container {
-    display: grid;
-    grid-template-columns: repeat (auto-fill, minmax(15em, 1fr));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+#container .card{
+    background-color:  #10d694;;
+}
+.card-text{
+    color: #fff;
+    font-size: 25px;
+    padding: 10px;  
 }

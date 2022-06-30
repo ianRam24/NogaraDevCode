@@ -35,7 +35,7 @@ var edad = prompt('Cuantos años tienes');
 var nombre = prompt('Cual es tu nombre');
 
 if (edad > 18) {
-  alert('Pudiste entrar' + ' ' + nombre + ' ' + 'porque tienes' + edad);
+  alert(`Pudiste entrar ${nombre} porque tienes ${edad}`);
 } else {
   alert('No entras eres muy joven');
 }

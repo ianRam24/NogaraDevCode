@@ -19,4 +19,4 @@ btn.addEventListener('click', geoLocalitation());
 /* screen.orientation.type=> para saber la orientacion del telefono: landscape-primary: Horizontal y portrait-primary: Vertical */
 // screen.width => Saca el Ancho de laa pantalla
 // screen.height=> Saca el alto de la pantalla
-// 19.5584975 / -99.1440035 Caress
+// 19.5584975 / -99.1440035 Location

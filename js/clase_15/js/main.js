@@ -17,9 +17,9 @@ let batman = {
 // superman('Clark', 34, 'Writter');
 
 function superHeroe(name, age, estatus) {
-  this.name = name;
-  this.age = age;
-  this.estatus = estatus;
+  name;
+  age;
+  estatus;
 }
 let superman = new superHeroe('Clark', 36, 'writter');
 
